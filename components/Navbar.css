@@ -83,6 +83,7 @@
 
 /* ------------------- Responsive Styling ------------------- */
 @media (max-width: 768px) {
+  
   .menu-icon {
     display: flex;
     /* color: #000; */
