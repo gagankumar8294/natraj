@@ -10,8 +10,10 @@ export default function BookingForm() {
         <input type="tel" placeholder="Mobile Number" required />
         <input type="text" placeholder="Pickup Address" required />
         <input type="text" placeholder="Drop-off Address" required />
-        <input type="date" required />
-        <input type="time" required />
+        <p>Select date</p>
+        <input type="date" className='date-color' required />
+        <p>Select Time</p>
+        <input type="time" className='time-color' required />
         <button type="submit">Book Now</button>
       </form>
     </div>

@@ -47,7 +47,7 @@
 .menu-icon span {
   height: 3px;
   width: 100%;
-  background: white;
+  background: #000;
   border-radius: 2px;
   transition: all 0.3s ease;
 }
@@ -85,6 +85,7 @@
 @media (max-width: 768px) {
   .menu-icon {
     display: flex;
+    /* color: #000; */
   }
 
   .nav-links {
