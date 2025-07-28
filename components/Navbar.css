@@ -24,8 +24,8 @@
 
 /* Logo */
 .logo {
-  width: 120px;
-  height: 40px;
+  width: 240px;
+  height: 80px;
   background-image: url('/logo.png');  /* image must be inside public/ folder */
   background-size: contain;
   background-repeat: no-repeat;
