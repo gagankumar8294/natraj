@@ -100,7 +100,7 @@ export default function Home() {
     //   </footer>
     // </div>
     <>
-    <h1 style={{ textAlign: "center" }}>Explore Our Cars</h1>
+    <h1 style={{ textAlign: "center" }}>Airport Taxi</h1>
       <div className="car-container">
         {cars.map(car => (
           <CarCard key={car.id} {...car} />
