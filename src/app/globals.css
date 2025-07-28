@@ -1,8 +1,10 @@
 body {
   margin: 0;
   font-family: sans-serif;
-  background: #f4f4f4;
+  background: linear-gradient(120deg, #e0e0e0, #f7f7f7);
+  min-height: 100vh;
 }
+
 
 h1, h2 {
   margin-top: 1rem;
