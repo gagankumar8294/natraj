@@ -6,9 +6,9 @@ import BookingForm from "../../components/BookingForm";
 export default function Home() {
 
   const cars = [
-    { id: 1, name: "Swift Dzire", price: "₹10/km", image: "/cars/swift-natraj-tours-travels.png" },
-    { id: 2, name: "Innova Crysta", price: "₹15/km", image: "/cars/innova-crysta-natraj-tours-travels.png" },
-    { id: 3, name: "Tempo Traveller", price: "₹20/km", image: "/cars/tempo-traveller-natraj-tours-travells.png" },
+    { id: 1, name: "Swift Dzire", price: "₹1099", image: "/cars/swift-natraj-tours-travels.png" },
+    { id: 2, name: "Innova Crysta", price: "₹1999", image: "/cars/innova-crysta-natraj-tours-travels.png" },
+    { id: 3, name: "Tempo Traveller", price: "₹3999", image: "/cars/tempo-traveller-natraj-tours-travells.png" },
   ];
   return (
     // <div className={styles.page}>
