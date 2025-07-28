@@ -93,9 +93,12 @@
     right: 0;
     background-color: rgba(51, 51, 51, 0.95);  /* solid background for small devices */
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     width: 100%;
-    padding: 1rem 2rem;
+    padding-top: 30;
+    padding-bottom: 100vh;
+    padding-left: 50px;
+    
     display: none;
     gap: 1rem;
   }
@@ -106,5 +109,7 @@
 
   .nav-links a {
     width: 100%;
+    padding-top: 30px;
+    padding-left: 250px;
   }
 }
