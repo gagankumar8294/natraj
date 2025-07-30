@@ -12,8 +12,8 @@
 
 .overlay {
   background: rgba(255, 255, 255, 0.15); /* transparent white overlay */
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
   padding: 2rem;
   border-radius: 12px;
   text-align: center;
@@ -39,5 +39,10 @@
 
   .subtitle {
     font-size: 0.9rem;
+  }
+
+  .overlay {
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(3.5px);
   }
 }
