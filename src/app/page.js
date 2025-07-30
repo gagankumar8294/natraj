@@ -38,7 +38,7 @@ export default function Home() {
     { id: 3, name: "Ciaz", price: "₹1199", image: "/cars/ciaz.png" },
     { id: 4, name: "Ertiga", price: "₹1599", image: "/cars/ertiga.png" },
     { id: 5, name: "Toyota Innova", price: "₹1799", image: "/cars/ciaz.png" },
-    { id: 6, name: "Innova Crysta", price: "₹17999", image: "/cars/innova-crysta-natraj-tours-travels.png" },
+    { id: 6, name: "Innova Crysta", price: "₹1799", image: "/cars/innova-crysta-natraj-tours-travels.png" },
     { id: 7, name: "Tempo Traveller", price: "₹3999", image: "/cars/tempo-traveller-natraj-tours-travells.png" },      
   ];
 
