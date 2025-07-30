@@ -5,6 +5,7 @@ import BookingForm from "../../components/BookingForm";
 import About from "../../components/About";
 import OutStation from "../../components/OutStation";
 import Footer from "../../components/Footer";
+import LandingBanner from "../../components/LandingBanner";
 
 export default function Home() {
 
@@ -32,7 +33,7 @@ export default function Home() {
   return (
     <>
     <section id="home">
-
+      <LandingBanner />
     </section>
     <h1 style={{ textAlign: "center" }}>Airport Taxi</h1>
       <div className="car-container">

@@ -1,0 +1,43 @@
+.banner {
+  height: 40vh; /* You can adjust to 30vh or 50vh */
+  background-image: url('/cars/banner-car.webp'); /* Make sure image exists */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.overlay {
+  background: rgba(255, 255, 255, 0.15); /* transparent white overlay */
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  color: #000;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.25);
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 1.4rem;
+  }
+
+  .subtitle {
+    font-size: 0.9rem;
+  }
+}
