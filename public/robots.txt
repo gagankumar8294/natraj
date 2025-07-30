@@ -1,4 +1,9 @@
+# *
 User-agent: *
 Allow: /
 
+# Host
+Host: https://natrajtoursandtravels.vercel.app
+
+# Sitemaps
 Sitemap: https://natrajtoursandtravels.vercel.app/sitemap.xml
