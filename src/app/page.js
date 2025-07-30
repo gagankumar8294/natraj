@@ -4,6 +4,7 @@ import CarCard from "../../components/CarCard";
 import BookingForm from "../../components/BookingForm";
 import About from "../../components/About";
 import OutStation from "../../components/OutStation";
+import Footer from "../../components/Footer";
 
 export default function Home() {
 
@@ -54,6 +55,7 @@ export default function Home() {
         <section id="about">
       </section>
       <About />
+      <Footer />
     </>
   );
 }
