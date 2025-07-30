@@ -9,7 +9,7 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={styles.container}>
         <div className={styles.brand}>
-          <h3>Nataraj Tours & Travels</h3>
+          <h3>Natraj Tours & Travels</h3>
           <p>Your trusted ride across Bangalore</p>
         </div>
 

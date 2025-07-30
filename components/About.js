@@ -3,7 +3,7 @@ export default function About() {
     <section style={{ padding: "2rem", lineHeight: "1.8", fontSize: "1rem", maxWidth: "900px", margin: "auto" }}>
       <h2 style={{ textAlign: "center", marginBottom: "1.5rem" }}>About Us</h2>
       <p>
-        At <strong>Nataraj Tours & Travels</strong>, we believe that every journey should be smooth, reliable, and comfortable. We are committed to providing quality transportation solutions with a focus on cleanliness, affordability, professionalism, and friendly service.
+        At <strong>Natraj Tours & Travels</strong>, we believe that every journey should be smooth, reliable, and comfortable. We are committed to providing quality transportation solutions with a focus on cleanliness, affordability, professionalism, and friendly service.
       </p>
       <p>
         We proudly serve customers <strong>across Bangalore</strong>, offering well-maintained cabs and experienced chauffeurs to meet your travel needs—whether it's a quick city ride, an airport transfer, or an outstation trip.
