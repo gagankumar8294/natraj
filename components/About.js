@@ -12,7 +12,7 @@ export default function About() {
         Through our collaboration with reputed transport service providers, we also offer <strong>on-call drivers</strong> for your personal vehicle—on a part-time, full-day, or outstation basis. Our drivers are well-trained, courteous, and punctual to ensure your journey is both safe and pleasant.
       </p>
       <p>
-        At Nataraj Tours & Travels, your comfort is our priority. Join us for a ride that’s not just about reaching your destination—but enjoying every moment of the trip.
+        At Natraj Tours & Travels, your comfort is our priority. Join us for a ride that’s not just about reaching your destination—but enjoying every moment of the trip.
       </p>
     </section>
   );
