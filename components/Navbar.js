@@ -27,10 +27,10 @@ export default function Navbar() {
 
         {/* Navigation Links */}
         <div className={`nav-links ${menuOpen ? "show" : ""}`}>
-          <Link href="/" onClick={() => setMenuOpen(false)}>Home</Link>
-          <Link href="/cars" onClick={() => setMenuOpen(false)}>Cars</Link>
-          <Link href="/about" onClick={() => setMenuOpen(false)}>About</Link>
-          <Link href="/contact" onClick={() => setMenuOpen(false)}>Contact</Link>
+          <a href="#home" onClick={() => setMenuOpen(false)}>Home</a>
+          <a href="#cars" onClick={() => setMenuOpen(false)}>Cars</a>
+          <a href="#about" onClick={() => setMenuOpen(false)}>About</a>
+          <a href="#booking" onClick={() => setMenuOpen(false)}>Booking</a>
         </div>
       </div>
     </nav>
