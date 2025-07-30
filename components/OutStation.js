@@ -1,7 +1,7 @@
 "use client";
 import '../components/CarCard.css'
 
-export default function CarCard({ name, price, image }) {
+export default function OutStation({ name, price, image }) {
 
   const phoneNumber = "9164143196";
   const rawMessage = `Hi *Nataraj Tours & Travels*\ni want to book cab - *${name}*\nCall back please`;
