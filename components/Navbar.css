@@ -71,9 +71,9 @@
 }
 
 .nav-links a {
-  color: white;
+  color: #000;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 1000;
   transition: color 0.3s ease;
 }
 
@@ -111,6 +111,7 @@
 
   .nav-links a {
     width: 100%;
+    color: #fff;
     padding-top: 30px;
     padding-left: 250px;
   }
