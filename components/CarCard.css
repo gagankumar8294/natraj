@@ -23,6 +23,12 @@
   font-size: 19px;
 }
 
+.car-toll {
+  font-size: 14px;
+  font-style: italic;
+  color: darkolivegreen;
+}
+
 .button-group {
   display: flex;
   flex-direction: column;

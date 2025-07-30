@@ -17,6 +17,7 @@ export default function CarCard({ name, price, image }) {
       <img src={image} alt={name} className="car-img" />
       <h3 className="car-name">{name}</h3>
       <p className="car-price">{price}</p>
+      <p className="car-toll">Extra Toll ₹110</p>
       <div className="button-group">
         {/* Phone call using tel: */}
         <a href={`tel:${phoneNumber}`}>
