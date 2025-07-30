@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Head from "next/head";
 import styles from "./page.module.css";
 import CarCard from "../../components/CarCard";
 import BookingForm from "../../components/BookingForm";
@@ -6,6 +7,28 @@ import About from "../../components/About";
 import OutStation from "../../components/OutStation";
 import Footer from "../../components/Footer";
 import LandingBanner from "../../components/LandingBanner";
+
+export const metadata = {
+  title: 'Nataraj Tours & Travels - Hygienic Taxis & Trusted Drivers',
+  description: 'Book safe and reliable taxis with Nataraj Tours & Travels. Hygienic vehicles and professional drivers. Call or WhatsApp us now!',
+  keywords: ['Nataraj Tours', 'taxi Bangalore', 'travel booking', 'airport drop', 'hygienic cab', 'call taxi'],
+  authors: [{ name: 'Nataraj Tours & Travels' }],
+  openGraph: {
+    title: 'Nataraj Tours & Travels',
+    description: 'Book safe and reliable taxis with trusted drivers.',
+    url: 'https://natarajtours.in',
+    siteName: 'Nataraj Tours & Travels',
+    images: [
+      {
+        url: '/car-banner.jpg',
+        width: 800,
+        height: 600,
+      },
+    ],
+    type: 'website',
+  },
+};
+
 
 export default function Home() {
 
@@ -31,7 +54,20 @@ export default function Home() {
     { id: 9, name: "21-Seater Mini Bus", price: "₹30/KM | ₹Bata 600", image: "/cars/mini-bus.png" },
   ];
   return (
-    <>
+    <main>
+    <Head>
+        <title>Nataraj Tours & Travels - Hygienic Taxis & Trusted Drivers</title>
+        <meta name="description" content="Book safe and reliable taxis with Nataraj Tours & Travels. Hygienic vehicles and professional drivers. Call or WhatsApp us now!" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="keywords" content="Nataraj Tours, taxi Bangalore, travel booking, airport drop, hygienic cab, call taxi, best taxi service" />
+        <meta name="author" content="Nataraj Tours & Travels" />
+        <meta property="og:title" content="Nataraj Tours & Travels" />
+        <meta property="og:description" content="Book safe and reliable taxis with trusted drivers." />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="/car-banner.jpg" />
+        <meta property="og:url" content="https://natarajtours.in" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
     <section id="home">
       <LandingBanner />
     </section>
@@ -57,6 +93,6 @@ export default function Home() {
       </section>
       <About />
       <Footer />
-    </>
+    </main>
   );
 }
