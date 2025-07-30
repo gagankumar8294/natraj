@@ -18,7 +18,10 @@ export default function CarCard({ name, price, image }) {
       <h3>{name}</h3>
       <p>{price}</p>
       <div className="button-group">
-        <button className="call-btn">Call Us Now</button>
+        {/* Phone call using tel: */}
+        <a href={`tel:${phoneNumber}`}>
+          <button className="call-btn">Call Us Now</button>
+        </a>
         <span className="or-text">OR</span>
         <button className="whatsapp-btn" onClick={handleWhatsAppClick}>
           WhatsApp Now
