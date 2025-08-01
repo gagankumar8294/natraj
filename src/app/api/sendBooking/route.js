@@ -14,7 +14,7 @@ export async function POST(request) {
   } = body;
 
   const BOT_TOKEN = '7580706390:AAHfgjtJh7GulLQX9-3KSaUifJ82lw6aXWc'; // 🔒 Replace with your real bot token
-  const CHAT_ID = ['6685264794', '5450898328'];
+  const CHAT_IDS = ['6685264794', '5450898328']; // ✅ Array of chat IDs
 
   const message = `
 🧳 *New Booking Received!*
@@ -26,26 +26,31 @@ export async function POST(request) {
 🎯 *Drop-off:* ${dropoff}
 📅 *Date:* ${date}
 ⏰ *Time:* ${time}
-`;
+  `;
 
   const url = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`;
 
   try {
-    const response = await fetch(url, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        chat_id: CHAT_ID,
-        text: message,
-        parse_mode: 'Markdown'
-      }),
-    });
+    // Send the message to each chat ID
+    for (const chatId of CHAT_IDS) {
+      const res = await fetch(url, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          chat_id: chatId,
+          text: message,
+          parse_mode: 'Markdown'
+        }),
+      });
 
-    if (!response.ok) {
-      throw new Error('Telegram API error');
+      if (!res.ok) {
+        const errorData = await res.json();
+        console.error('Telegram API error:', errorData);
+        throw new Error(`Failed to send message to chat ID: ${chatId}`);
+      }
     }
 
-    return new Response(JSON.stringify({ success: true, message: "Booking sent!" }), { status: 200 });
+    return new Response(JSON.stringify({ success: true, message: "Booking sent to all chats!" }), { status: 200 });
   } catch (error) {
     return new Response(JSON.stringify({ success: false, error: error.message }), { status: 500 });
   }
