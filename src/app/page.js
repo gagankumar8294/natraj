@@ -44,7 +44,7 @@ export default function Home() {
 
   const outStation = [
     { id: 1, name: "Swift Dzire", price: "₹12/KM | ₹Bata 400", image: "/cars/swift-natraj-tours-travels.png" },
-    { id: 2, name: "Etios", price: "₹12/KM | ₹Bata 400", image: "/cars/ertiga.png" },
+    { id: 2, name: "Etios", price: "₹12/KM | ₹Bata 400", image: "/cars/etios.png" },
     { id: 3, name: "Ciaz", price: "₹13/KM | ₹Bata 400", image: "/cars/ciaz.png" },
     { id: 4, name: "Ertiga", price: "₹16/KM | ₹Bata 500", image: "/cars/ertiga.png" },
     { id: 5, name: "Toyota Innova", price: "₹18/KM | ₹Bata 500", image: "/cars/ciaz.png" },
