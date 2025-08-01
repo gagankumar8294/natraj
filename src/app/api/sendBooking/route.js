@@ -14,7 +14,7 @@ export async function POST(request) {
   } = body;
 
   const BOT_TOKEN = '7580706390:AAHfgjtJh7GulLQX9-3KSaUifJ82lw6aXWc'; // 🔒 Replace with your real bot token
-  const CHAT_ID = '6685264794';
+  const CHAT_ID = ['6685264794', '5450898328'];
 
   const message = `
 🧳 *New Booking Received!*
